@@ -16,6 +16,7 @@ public class BackContentNumber {
             x /= 10;
             System.out.println("re值为：" + revertedNumber);
             System.out.println("X值为：" + x);
+
         }
 
         return revertedNumber == x || x == revertedNumber / 10;
